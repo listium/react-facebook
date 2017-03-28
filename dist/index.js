@@ -1,7 +1,7 @@
 'use strict';
 
 exports.__esModule = true;
-exports.CommentsOrderBy = exports.LikeAction = exports.ColorScheme = exports.LikeLayout = exports.LikeSize = exports.CommentsCount = exports.Comments = exports.EmbeddedPost = exports.LoginButton = exports.Login = exports.Page = exports.ShareButton = exports.Like = exports.default = undefined;
+exports.CommentsOrderBy = exports.LikeAction = exports.ColorScheme = exports.LikeLayout = exports.LikeSize = exports.CommentsCount = exports.Comments = exports.EmbeddedPost = exports.LoginButton = exports.Login = exports.Page = exports.Like = exports.default = undefined;
 
 var _FacebookProvider = require('./FacebookProvider');
 
@@ -10,10 +10,6 @@ var _FacebookProvider2 = _interopRequireDefault(_FacebookProvider);
 var _Like2 = require('./Like');
 
 var _Like3 = _interopRequireDefault(_Like2);
-
-var _ShareButton2 = require('./ShareButton');
-
-var _ShareButton3 = _interopRequireDefault(_ShareButton2);
 
 var _Page2 = require('./Page');
 
@@ -63,7 +59,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.default = _FacebookProvider2.default;
 exports.Like = _Like3.default;
-exports.ShareButton = _ShareButton3.default;
 exports.Page = _Page3.default;
 exports.Login = _Login3.default;
 exports.LoginButton = _LoginButton3.default;

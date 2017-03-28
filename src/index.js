@@ -1,7 +1,6 @@
 export default from './FacebookProvider';
 
 export Like from './Like';
-export ShareButton from './ShareButton';
 export Page from './Page';
 export Login from './Login';
 export LoginButton from './LoginButton';
